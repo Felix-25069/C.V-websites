@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('tifa.jpeg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(10, 150, 17);
+    border-radius: 10%;
+    width: 170px;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+
+}
+
+.content {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+/*.image-container {
+    
+}
+*/
+.image-container img {
+    padding: 20px;
+
+}
+
+header {
+    background: #df7575;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #0056b3;
+}
+
+section {
+    background: rgb(226, 123, 123);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #927a7a;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
